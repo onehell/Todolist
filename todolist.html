@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todolist.css">
+</head>
+<body>
+    
+      
+          <div class="idk">
+        <div>
+            <input  id="newTaskField" type="text">
+            <button class="primaryButton" id="addButton">add</button>
+        </div>
+        <div  id="wrapper" class="wrapper">
+           <h2>activeList</h2>
+            <ol class="list" id="activeList" >
+                <li class="listItem">
+                    <p class="title">buy bread</p>
+                          <input id="cbx" class="invisible" type="checkbox">
+                             <button class="deleteButton">delete</button>
+                    <p class="date">20:31 15/11/2022</p>
+                </li>
+            </ol>
+            <h2>completedList</h2>
+            <ol class="list" id="completedList" ></ol>
+            
+        </div>
+    </div>
+</body>
+<script src="todolist.js"></script>
+</html>
